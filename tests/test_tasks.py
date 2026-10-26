@@ -14,5 +14,5 @@ class TestTasks(unittest.TestCase):
     completar_tarea(tareas, 1)
     self.assertEqual(pendientes(tareas), [])
     
-  if __name__ == "__main__":
- unittest.main()
+if __name__ == "__main__":
+  unittest.main()
